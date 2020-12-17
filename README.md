@@ -16,4 +16,4 @@ To access Run Check an API key is needed. To access an API key follow these inst
   6. Copy and paste your API key into api_key = 'YOUR API KEY GOES HERE'
   7. Open app.py in the folder and run the program.
 
-Link to app tutorial: https://youtu.be/_DVsxGATKKs
+Link to app tutorial: https://youtu.be/yX_Kdb5LrFs
