@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Open Weather Map API</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+</head>
+<body>
+<header class="main_header">
+    <div class="logo_div">
+        <h2>Run Check</h2>
+    </div>
+
+    <div class="search_form_div">
+        <form class="search_form">
+            <label for="search_field"></label><input type="search" id="search_field" placeholder="City Name">
+            <button id="search_button" type="button" onclick="getArrangementRecords()">Search</button>
+        </form>
+    </div>
+</header>
+
+<div class="table_div">
+    <table class="arrangements_table">
+        <thead>
+        <tr>
+            <th>City Name</th>
+            <th>Sunrise Time</th>
+            <th>Sunset Time</th>
+            <th>Temperature</th>
+            <th>Feels Like</th>
+            <th>Precipitation</th>
+            <th>Humidity</th>
+            <th>Wind Speed</th>
+            <th>Current Weather</th>
+            <th>Weather Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
